@@ -19,7 +19,6 @@ class IntroScreenState extends State<IntroScreen> {
   void initState() {
     super.initState();
 
-  
     slides.add(
       new Slide(
         title: "MUSEUM",
@@ -74,8 +73,7 @@ class IntroScreenState extends State<IntroScreen> {
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
-        description:
-            "Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of",
+        description: " Deneme",
         styleDescription: TextStyle(
             color: Color(0xffD02090),
             fontSize: 20.0,
@@ -155,4 +153,3 @@ class IntroScreenState extends State<IntroScreen> {
     );
   }
 }
-
