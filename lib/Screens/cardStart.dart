@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go/Widgets/bottomNavigation.dart';
 import 'package:go/data.dart';
 import 'package:go/Widgets/cardSection.dart';
 import 'package:go/Widgets/headers.dart';
@@ -11,7 +10,7 @@ class CardStart extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Circular'),
       home: Scaffold(
-          bottomNavigationBar: BottomNavigation(),
+          //bottomNavigationBar: BottomNavigation(),
           backgroundColor: primaryColor,
           body: Column(
             children: [

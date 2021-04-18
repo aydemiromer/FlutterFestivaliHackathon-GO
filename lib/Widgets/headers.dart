@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go/Screens/assignment.dart';
+
 import 'package:go/data.dart';
 
 class WalletHeader extends StatelessWidget {
@@ -47,13 +47,7 @@ class WalletHeader extends StatelessWidget {
                 ),
                 Center(
                   child: IconButton(
-                      icon: Icon(Icons.notifications),
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => PollView()),
-                        );
-                      }),
+                      icon: Icon(Icons.notifications), onPressed: () {}),
                 ),
               ],
             ),

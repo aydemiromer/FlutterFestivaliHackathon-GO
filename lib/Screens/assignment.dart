@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go/Screens/donation.dart';
 import 'package:polls/polls.dart';
 import 'package:go/data.dart';
-import 'package:go/Widgets/bottomNavigation.dart';
 
 class PollView extends StatefulWidget {
   @override
@@ -18,47 +16,31 @@ class _PollViewState extends State<PollView> {
   String user = "king@mail.com";
   Map usersWhoVoted = {
     'sam@mail.com': 3,
-    'mike@mail.com': 3,
+    'mike@mail.com': 2,
     'john@mail.com': 1,
-    'kenny@mail.com': 3,
+    'kenny@mail.com': 4,
   };
   String creator = "eddy@mail.com";
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigation(),
       backgroundColor: primaryColor,
-      appBar: AppBar(
+      /*appBar: AppBar(
+        backgroundColor: primaryColor,
         leading: IconButton(
             icon: Icon(
-              Icons.arrow_back_ios,
-              color: Colors.orange,
+              Icons.ac_unit,
+              color: primaryColor,
             ),
-            onPressed: () {
-              Navigator.pop(context);
-            }),
-        backgroundColor: primaryColor,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Center(
-              child: Text(
-                "Anket",
-                style: TextStyle(color: Colors.grey),
-              ),
-            ),
-            IconButton(
-                icon: Icon(Icons.assignment),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Donate()),
-                  );
-                })
-          ],
+            onPressed: () {}),
+        title: Center(
+          child: Text(
+            "Anket",
+            style: TextStyle(color: Colors.black),
+          ),
         ),
-      ),
+      ),*/
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(

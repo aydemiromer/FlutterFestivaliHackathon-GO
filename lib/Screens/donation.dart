@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go/data.dart';
-import 'package:go/Widgets/bottomNavigation.dart';
 
 class Donate extends StatelessWidget {
   @override
@@ -8,23 +7,15 @@ class Donate extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        bottomNavigationBar: BottomNavigation(),
+        // bottomNavigationBar: BottomNavigation(),
         backgroundColor: primaryColor,
-        appBar: AppBar(
-          leading: IconButton(
-              icon: Icon(
-                Icons.arrow_back_ios,
-                color: Colors.orange,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              }),
-          backgroundColor: primaryColor,
-          title: Text('Eski Bağışlar', style: TextStyle(color: Colors.black)),
-        ),
+
         body: ListView(
           scrollDirection: Axis.vertical,
           children: [
+            SizedBox(
+              height: 10,
+            ),
             Listtile(
                 'https://www.darulaceze.gov.tr/wp-content/uploads/2020/12/logo.png',
                 "Darülaceze",
