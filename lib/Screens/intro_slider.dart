@@ -21,67 +21,70 @@ class IntroScreenState extends State<IntroScreen> {
 
     slides.add(
       new Slide(
-        title: "MUSEUM",
+        /*title: "GO",
         styleTitle: TextStyle(
-            color: Color(0xffD02090),
+            color: Color(0xFFFF9800),
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
+            fontFamily: 'RobotoMono'),*/
         description:
             //BURAYA ACIKLAMA YAPILACAK
-            "Ye indulgence unreserved connection alteration appearance",
+            "Go ile cüzdanınızda duran küsüratlar iyiliğe dönüşsün!",
         styleDescription: TextStyle(
-            color: Color(0xffD02090),
-            fontSize: 20.0,
+            color: Color(0xFFBD602A),
+            fontSize: 25.0,
             fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
             fontFamily: 'Raleway'),
-        pathImage: "images/dash.png",
+        pathImage: "images/logo.jpg",
+        
         //ARKA PLAN RENKLERİNİ AYARLAMAK İSTERSEN BEGIN VE END KODLARINI DEGISTIR
-        colorBegin: Color(0xffFFFACD),
-        colorEnd: Color(0xffFF6347),
+        colorBegin: Color(0xFFFFFFFF),
+        colorEnd: Color(0xFFDEF4FD),
         directionColorBegin: Alignment.topRight,
         directionColorEnd: Alignment.bottomLeft,
       ),
     );
     slides.add(
       new Slide(
-        title: "MUSEUM",
+        title: "Nasıl Çalışıyoruz?",
         styleTitle: TextStyle(
-            color: Color(0xffD02090),
-            fontSize: 30.0,
+            color: Color(0xFF9CCDFC),
+            fontSize: 40.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
         description:
-            "Ye indulgence unreserved connection alteration appearance",
+            "Go ile bu ay sizlerin seçtiği vakıf, kurum, kuruluşa toplanan bağışlar aktarılır.Göndereceğiniz bağışların niceliğine değil niteliğine önem veriyoruz.Haydi durmayın Go ile yardıma başlayın!",
         styleDescription: TextStyle(
-            color: Color(0xffD02090),
-            fontSize: 20.0,
+            color: Color(0xFFBD602A),
+            fontSize: 25.0,
             fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
             fontFamily: 'Raleway'),
-        pathImage: "images/photo_museum.png",
-        colorBegin: Color(0xffFFFACD),
-        colorEnd: Color(0xffFF6347),
+        colorBegin: Color(0xFFFFFFFF),
+        colorEnd: Color(0xFFDEF4FD),
         directionColorBegin: Alignment.topRight,
         directionColorEnd: Alignment.bottomLeft,
       ),
     );
     slides.add(
       new Slide(
-        title: "COFFEE",
+        title: "ANKET",
         styleTitle: TextStyle(
-            color: Color(0xffD02090),
+            color: Color(0xFFFF5E00),
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
-        description: " Deneme",
+        description: "Anketimize katılabilir ve bu ay hangi kuruluşa bağış yapılacağını seçebilirsiniz...",
         styleDescription: TextStyle(
-            color: Color(0xffD02090),
-            fontSize: 20.0,
+            color: Color(0xFFFF5E00),
+            fontSize: 25.0,
             fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
             fontFamily: 'Raleway'),
-        pathImage: "images/photo_coffee_shop.png",
-        colorBegin: Color(0xffFFA500),
-        colorEnd: Color(0xff7FFFD4),
+        pathImage: "images/donate.jpg",
+        colorBegin: Color(0xFFFFFFFF),
+        colorEnd: Color(0xFFFFFFFF),
         directionColorBegin: Alignment.topCenter,
         directionColorEnd: Alignment.bottomCenter,
         maxLineTextDescription: 3,
@@ -100,7 +103,7 @@ class IntroScreenState extends State<IntroScreen> {
   Widget renderNextBtn() {
     return Icon(
       Icons.navigate_next,
-      color: Color(0xffD02090),
+      color: Color(0xFFFF5E00),
       size: 35.0,
     );
   }
@@ -108,14 +111,14 @@ class IntroScreenState extends State<IntroScreen> {
   Widget renderDoneBtn() {
     return Icon(
       Icons.done,
-      color: Color(0xffD02090),
+      color: Color(0xFFFF5E00),
     );
   }
 
   Widget renderSkipBtn() {
     return Icon(
       Icons.skip_next,
-      color: Color(0xffD02090),
+      color: Color(0xFFFF5E00),
     );
   }
 
@@ -140,8 +143,8 @@ class IntroScreenState extends State<IntroScreen> {
       highlightColorDoneBtn: Color(0xff000000),
 
       // Dot indicator
-      colorDot: Color(0x33D02090),
-      colorActiveDot: Color(0xffD02090),
+      colorDot: Color(0xFFB19060),
+      colorActiveDot: Color(0xFFFF5E00),
       sizeDot: 13.0,
 
       // Show or hide status bar
