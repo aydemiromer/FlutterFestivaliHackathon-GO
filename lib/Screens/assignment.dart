@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go/Screens/donation.dart';
 import 'package:polls/polls.dart';
 import 'package:go/data.dart';
 import 'package:go/Widgets/bottomNavigation.dart';
@@ -38,11 +39,24 @@ class _PollViewState extends State<PollView> {
               Navigator.pop(context);
             }),
         backgroundColor: primaryColor,
-        title: Center(
-          child: Text(
-            "Anket",
-            style: TextStyle(color: Colors.grey),
-          ),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Center(
+              child: Text(
+                "Anket",
+                style: TextStyle(color: Colors.grey),
+              ),
+            ),
+            IconButton(
+                icon: Icon(Icons.assignment),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Donate()),
+                  );
+                })
+          ],
         ),
       ),
       body: Padding(
