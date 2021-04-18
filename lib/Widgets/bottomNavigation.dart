@@ -9,22 +9,20 @@ class BottomNavigation extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomNavigationBar(
         backgroundColor: Colors.transparent,
-        selectedItemColor: Colors.white,
+        selectedItemColor: Colors.orange[200],
         unselectedItemColor: Colors.white.withOpacity(0.8),
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_filled),
-            label: "Ana Sayfa",
-
+            label: 'Ana Sayfa',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.assignment),
-            label: "Anket",
-            
+            label: 'Anket',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.payment),
-            label: "Bağışlar",
+            label: 'Bağışlar',
           ),
         ]);
   }
