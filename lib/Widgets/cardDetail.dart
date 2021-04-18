@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 
 import 'package:clipboard/clipboard.dart';
 
-class CardDetails extends StatelessWidget {
+class CardDetails extends StatefulWidget {
+  @override
+  _CardDetailsState createState() => _CardDetailsState();
+}
+
+class _CardDetailsState extends State<CardDetails> {
+  bool isPressed = false;
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -61,10 +67,14 @@ class CardDetails extends StatelessWidget {
           child: Center(
             child: IconButton(
               icon: Icon(
-                Icons.content_copy,
-              ),
+                  isPressed ? Icons.content_copy : Icons.content_copy_outlined),
+              color: isPressed ? Colors.red : Colors.black,
               onPressed: () {
-                FlutterClipboard.copy(text).then((value) => print('copied'));
+                //FlutterClipboard.copy(text).then((value) => print('copied')),
+                setState(() {
+                  isPressed = !isPressed;
+                  FlutterClipboard.copy(text).then((value) => print('copied'));
+                });
               },
             ),
           ),
