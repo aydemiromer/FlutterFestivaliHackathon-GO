@@ -60,6 +60,10 @@ flutter:
     - images/zblogo2.jpg
     - images/is.png
     - images/vakıf.png
+    - images/logo.jpg
+    - images/O.jpg
+    - images/donate.jpg
+
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
