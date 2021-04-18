@@ -1,4 +1,4 @@
-# GO FlutterFestivali Hachathonda iki kişilik ekiple geliştirilmiş bir sosyal sorumluluk projesidir.
+# GO FlutterFestivali Hackathonda iki kişilik ekiple geliştirilmiş bir sosyal sorumluluk projesidir.
 
 GO insanların cüzdanlarında bulunan küsüratları toplayan daha sonra toplu şekilde anket sonucunda seçilen yardım kuruluşuna aktarılmasını hedefleyen bir sosyal sorumluluk projesidir.
 
