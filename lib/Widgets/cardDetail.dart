@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go/data.dart';
+import 'package:clipboard/clipboard.dart';
 
 class CardDetails extends StatelessWidget {
   @override
@@ -46,30 +47,34 @@ class CardDetails extends StatelessWidget {
           //'₺IBAN:TR1000 1000 0000 12345678 5002',
           style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
         ),
-        copy(),
+        copy(text),
       ],
     );
   }
 
-  Align copy() {
+  Align copy(String text) {
     return Align(
       alignment: Alignment.bottomRight,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Container(
           child: Center(
-            child: Text(
-              'Copy',
-              style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
+            child: IconButton(
+              icon: Icon(
+                Icons.content_copy,
+              ),
+              onPressed: () {
+                FlutterClipboard.copy(text).then((value) => print('copied'));
+              },
             ),
           ),
           width: 30,
           height: 30,
-          decoration: BoxDecoration(
+          /*decoration: BoxDecoration(
             color: primaryColor,
             boxShadow: customShadow,
             borderRadius: BorderRadius.circular(20),
-          ),
+          ),*/
         ),
       ),
     );
