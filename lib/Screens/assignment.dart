@@ -59,8 +59,7 @@ class _PollViewState extends State<PollView> {
                 Polls.options(title: 'Ahbap', value: option3),
                 Polls.options(title: 'Mehmetçik Vakfı', value: option4),
               ],
-              question:
-                  Text('Bu ay hangi yardım kuruluşuna yardımda bulunalım ?'),
+              question: Text('Bu ay hangi yardım kuruluşuna bağış yapalım ?'),
               currentUser: this.user,
               creatorID: this.creator,
               voteData: usersWhoVoted,
