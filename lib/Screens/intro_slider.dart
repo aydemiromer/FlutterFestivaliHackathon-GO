@@ -18,26 +18,26 @@ class IntroScreenState extends State<IntroScreen> {
   @override
   void initState() {
     super.initState();
-
     slides.add(
       new Slide(
-        /*title: "GO",
+        title: "GO NEDİR ?",
         styleTitle: TextStyle(
-            color: Color(0xFFFF9800),
+            color: Color(0xFFFF5E00),
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),*/
+            fontFamily: 'RobotoMono'),
         description:
             //BURAYA ACIKLAMA YAPILACAK
-            "Go ile cüzdanınızda duran küsüratlar iyiliğe dönüşsün!",
+
+            "GO  kartlarınızda bulunan küsüratları toplayıp bunları  anket ile belirlediğiniz yardım kuruluşuna aktarılmasını hedefleyen bir sosyal sorumluluk projesidir.",
         styleDescription: TextStyle(
             color: Color(0xFFBD602A),
-            fontSize: 25.0,
+            fontSize: 20.0,
             fontStyle: FontStyle.italic,
             fontWeight: FontWeight.bold,
             fontFamily: 'Raleway'),
-        pathImage: "images/logo.jpg",
-        
+        pathImage: "images/dash.png",
+
         //ARKA PLAN RENKLERİNİ AYARLAMAK İSTERSEN BEGIN VE END KODLARINI DEGISTIR
         colorBegin: Color(0xFFFFFFFF),
         colorEnd: Color(0xFFDEF4FD),
@@ -45,28 +45,31 @@ class IntroScreenState extends State<IntroScreen> {
         directionColorEnd: Alignment.bottomLeft,
       ),
     );
+
     slides.add(
       new Slide(
         title: "Nasıl Çalışıyoruz?",
         styleTitle: TextStyle(
             color: Color(0xFFFF5E00),
-            fontSize: 40.0,
+            fontSize: 30.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
         description:
-            "Go ile bu ay sizlerin seçtiği vakıf, kurum, kuruluşa toplanan bağışlar aktarılır.Göndereceğiniz bağışların niceliğine değil niteliğine önem veriyoruz.Haydi durmayın Go ile yardıma başlayın!",
+            "Go ile anasayfamızda bulunan kartlardan istediğiniz bankanın istediğiniz ibanını yanında bulunan tuş ile rahatlıkla koplayalayıp, bizlere cüzdanındaki küsüratı gönderebilirsin.Bağış yapmasanız bile anketimize katılıp o ay için belirlenen 4 kuruluştan birisine oy verebilirsiniz.",
         styleDescription: TextStyle(
             color: Color(0xFFBD602A),
-            fontSize: 25.0,
+            fontSize: 20.0,
             fontStyle: FontStyle.italic,
             fontWeight: FontWeight.bold,
             fontFamily: 'Raleway'),
+        pathImage: "images/dash3.png",
         colorBegin: Color(0xFFFFFFFF),
         colorEnd: Color(0xFFDEF4FD),
         directionColorBegin: Alignment.topRight,
         directionColorEnd: Alignment.bottomLeft,
       ),
     );
+    /*
     slides.add(
       new Slide(
         title: "ANKET",
@@ -75,7 +78,8 @@ class IntroScreenState extends State<IntroScreen> {
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
-        description: "Anketimize katılabilir ve bu ay belirlenen 4 kuruluştan hangisine bağış yapılacağını seçebilirsiniz...",
+        description:
+            "Anketimize katılabilir ve bu ay belirlenen 4 kuruluştan hangisine bağış yapılacağını seçebilirsiniz...",
         styleDescription: TextStyle(
             color: Color(0xFFFF5E00),
             fontSize: 25.0,
@@ -88,6 +92,34 @@ class IntroScreenState extends State<IntroScreen> {
         directionColorBegin: Alignment.topCenter,
         directionColorEnd: Alignment.bottomCenter,
         maxLineTextDescription: 3,
+      ),
+    );
+    */
+    slides.add(
+      new Slide(
+        /*title: "GO",
+        styleTitle: TextStyle(
+            color: Color(0xFFFF9800),
+            fontSize: 30.0,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'RobotoMono'),*/
+        description:
+            //BURAYA ACIKLAMA YAPILACAK
+
+            "Haydi Go ile cüzdanınızda duran küsüratlar iyiliğe dönüşsün!",
+        styleDescription: TextStyle(
+            color: Color(0xFFBD602A),
+            fontSize: 25.0,
+            fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'Raleway'),
+        pathImage: "images/dash2.png",
+
+        //ARKA PLAN RENKLERİNİ AYARLAMAK İSTERSEN BEGIN VE END KODLARINI DEGISTIR
+        colorBegin: Color(0xFFFFFFFF),
+        colorEnd: Color(0xFFDEF4FD),
+        directionColorBegin: Alignment.topRight,
+        directionColorEnd: Alignment.bottomLeft,
       ),
     );
   }
