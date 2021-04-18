@@ -56,6 +56,10 @@ flutter:
     - images/photo_museum.png
     - images/photo_coffee_shop.png
     - images/dash.png
+    - images/zblogo.png
+    - images/zblogo2.jpg
+    - images/is.png
+    - images/vakıf.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
