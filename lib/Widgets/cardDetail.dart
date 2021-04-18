@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go/data.dart';
+
 import 'package:clipboard/clipboard.dart';
 
 class CardDetails extends StatelessWidget {
