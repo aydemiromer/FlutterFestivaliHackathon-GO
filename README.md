@@ -5,9 +5,9 @@ GO insanların cüzdanlarında bulunan küsüratları toplayan daha sonra toplu 
 ## Uygulama Fotoğrafları
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/45129432/115147859-b85a5180-a065-11eb-833c-25c28d632595.jpeg" width="200" />
-  <img src="https://user-images.githubusercontent.com/45129432/115147867-bd1f0580-a065-11eb-93c0-3045e81718b5.jpeg" width="200" /> 
-  <img src="https://user-images.githubusercontent.com/45129432/115147870-bf815f80-a065-11eb-9073-a91fc4502d86.jpeg" width="200" />
+  <img src="https://user-images.githubusercontent.com/45129432/115147859-b85a5180-a065-11eb-833c-25c28d632595.jpeg" width="250" />
+  <img src="https://user-images.githubusercontent.com/45129432/115147867-bd1f0580-a065-11eb-93c0-3045e81718b5.jpeg" width="250" /> 
+  <img src="https://user-images.githubusercontent.com/45129432/115147870-bf815f80-a065-11eb-9073-a91fc4502d86.jpeg" width="250" />
 </p>
 
 <p float="left">
