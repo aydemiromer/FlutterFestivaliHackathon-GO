@@ -49,7 +49,7 @@ class IntroScreenState extends State<IntroScreen> {
       new Slide(
         title: "Nasıl Çalışıyoruz?",
         styleTitle: TextStyle(
-            color: Color(0xFF9CCDFC),
+            color: Color(0xFFFF5E00),
             fontSize: 40.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
@@ -75,7 +75,7 @@ class IntroScreenState extends State<IntroScreen> {
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
-        description: "Anketimize katılabilir ve bu ay hangi kuruluşa bağış yapılacağını seçebilirsiniz...",
+        description: "Anketimize katılabilir ve bu ay belirlenen 4 kuruluştan hangisine bağış yapılacağını seçebilirsiniz...",
         styleDescription: TextStyle(
             color: Color(0xFFFF5E00),
             fontSize: 25.0,
