@@ -29,7 +29,7 @@ class IntroScreenState extends State<IntroScreen> {
         description:
             //BURAYA ACIKLAMA YAPILACAK
 
-            "GO  kartlarınızda bulunan küsüratları toplayıp bunları  anket ile belirlediğiniz yardım kuruluşuna aktarılmasını hedefleyen bir sosyal sorumluluk projesidir.",
+            "GO  kartlarınızda bulunan küsüratları toplayıp bunları sizin belirlediğiniz yardım kuruluşuna bağışlanmasını hedefleyen bir sosyal sorumluluk projesidir.",
         styleDescription: TextStyle(
             color: Color(0xFFBD602A),
             fontSize: 20.0,
@@ -55,7 +55,7 @@ class IntroScreenState extends State<IntroScreen> {
             fontWeight: FontWeight.bold,
             fontFamily: 'RobotoMono'),
         description:
-            "Go ile anasayfamızda bulunan kartlardan istediğiniz bankanın istediğiniz ibanını yanında bulunan tuş ile rahatlıkla koplayalayıp, bizlere cüzdanındaki küsüratı gönderebilirsin.Bağış yapmasanız bile anketimize katılıp o ay için belirlenen 4 kuruluştan birisine oy verebilirsiniz.",
+            "Go ile anasayfamızda bulunan kartlardan istediğiniz bankanın, dilediğiniz iban numarasını rahatlıkla koplayalayıp, bizlere cüzdanındaki küsüratı gönderebilirsin.Bağış yapamamış olsanız bile anketimize katılıp o ay için belirlenen 4 kuruluştan birisine oy verebilirsiniz.",
         styleDescription: TextStyle(
             color: Color(0xFFBD602A),
             fontSize: 20.0,
